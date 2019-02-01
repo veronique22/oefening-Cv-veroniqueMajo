@@ -1,0 +1,78 @@
+body
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 11em;
+    margin-left: 10%; 
+    margin-right: 10%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px black;
+    width: 70%;
+    border-width: 10px
+}
+.div box
+{
+    border: solid; 
+    border-width: thin;
+    width: 100%; 
+}
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: none;
+   color: green;
+}
+ul.a 
+{
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em ;
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black;
+
+}
+footer
+{
+    position: absolute;
+    nav-down: 5em;
+    right: 1em;
+    width: 35em 
+}
+
+p
+{
+    color: rgb(8, 3, 3);
+    text-decoration-style: dotted;
+    text-align: justify;
+    font-size: 1,9em;
+}
+h2, h1, h4
+{
+    color: chocolate;
+    text-decoration-line: underline;
+    text-align: inherit;
+    font-style: inherit;
+    font-size: 2,5em
+}
+.identité
+{
+    color: chocolate;
+    text-shadow: 2px 2px 4px black;
+    font-size-adjust: inherit;
+}
+.img
+{
+    float: left;
+    object-position: top left;
+}
+#texte
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.identité :nth-child(1)
+{
+flex: 1;
+}
